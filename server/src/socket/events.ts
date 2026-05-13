@@ -1,0 +1,25 @@
+/** Client → server — इवेंट नाम एक जगह से */
+export const ClientEvents = {
+  JOIN_ROOM: "join_room",
+  LEAVE_ROOM: "leave_room",
+  PLAY: "play",
+  PAUSE: "pause",
+  SEEK: "seek",
+  CHANGE_VIDEO: "change_video",
+  ASSIGN_ROLE: "assign_role",
+  REMOVE_PARTICIPANT: "remove_participant",
+  SEND_MESSAGE: "send_message",
+  TYPING: "typing",
+  TICK: "tick",
+} as const;
+
+export const ServerEvents = {
+  SYNC_STATE: "sync_state",
+  USER_JOINED: "user_joined",
+  USER_LEFT: "user_left",
+  ROLE_ASSIGNED: "role_assigned",
+  PARTICIPANT_REMOVED: "participant_removed",
+  CHAT_MESSAGE: "chat_message",
+  TYPING_INDICATOR: "typing_indicator",
+  ERROR_MESSAGE: "error_message",
+} as const;
