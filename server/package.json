@@ -17,21 +17,21 @@
   },
   "dependencies": {
     "@prisma/client": "^6.13.0",
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6",
-    "@types/node": "^22.19.19",
     "cors": "^2.8.5",
     "dotenv": "^17.4.2",
     "express": "^5.1.0",
     "nanoid": "^5.1.11",
-    "prisma": "^6.13.0",
     "socket.io": "^4.8.1",
-    "typescript": "^5.8.3",
     "uuid": "^11.1.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {
+    "prisma": "^6.13.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.19.19",
     "eslint": "^9.32.0",
-    "tsx": "^4.20.3"
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
   }
 }
