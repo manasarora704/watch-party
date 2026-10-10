@@ -1,4 +1,4 @@
-# Watchio — Watch Together. Feel Togetherr.
+# Watchio — Watch Together. Feel Together.
 
 A real-time YouTube watch party platform that allows multiple users to watch and control YouTube videos together with synchronized playback, role-based access control, and live chat.
 
